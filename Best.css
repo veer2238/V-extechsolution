@@ -1,0 +1,263 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+
+    overflow-x: hidden;
+  }
+
+
+.bg {
+  /* The image used */
+  background-image: url("./images/architecture-blur-dark-downtown-wallpaper-preview.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.h {
+  background-color: rgba(0, 0, 0, 0.842);
+  height: 90px;
+
+}
+
+/* div.h h2{
+    color: #e7e7e7;
+    display: flex;
+    margin-left: 13rem;
+    
+  } */
+
+.hv {
+  color: #e7e7e7;
+  display: flex;
+  margin-left: 13rem;
+  padding-bottom: -10px;
+  padding-top: 10px;
+
+
+}
+
+.v {
+  color: aqua;
+  padding-left: 5px;
+}
+
+.navb {
+  color: aliceblue;
+  margin-top: -50px;
+  margin-left: 30rem;
+
+}
+
+.pv {
+  color: rgb(116, 233, 38);
+  text-transform: capitalize;
+  font-size: small;
+  margin-top: -25px;
+  margin-left: 14rem;
+
+}
+
+
+
+.nav_image {
+  background-color: black;
+  height: 50px;
+  opacity: 0.8;
+}
+
+.centeri {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+div.a {
+  text-align: center;
+  margin-top: 10px;
+}
+
+div.c {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+div.de {
+  margin: 4%;
+}
+
+.cin {
+  color: blue;
+}
+
+.pin {
+  color: rgb(99, 43, 29);
+  margin-top: -7px;
+  border-style: outset;
+  border-radius: 12px;
+  padding: 3\2px;
+  width: 400px;
+  margin: auto;
+  padding: 5px;
+}
+
+
+
+
+div.a h2 {
+  margin-bottom: 10px;
+}
+
+div.a hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 3px;
+  width: 50%;
+}
+
+div.b {
+  text-align: center;
+  margin-top: 50px;
+}
+
+div.b hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 3px;
+  width: 25%;
+}
+
+
+.cards {
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  grid-auto-rows: auto;
+
+  grid-gap: 1rem;
+
+}
+
+
+
+.card {
+
+  border: 2px solid #e7e7e7;
+
+  border-radius: 4px;
+
+  padding: .5rem;
+
+  height: 20rem;
+
+  width: 20rem;
+
+}
+
+.picv {
+  height: 10rem;
+  width: 18.9rem;
+}
+
+.textv {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.mline {
+  display: block;
+  margin-top: 0.9rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+  width: 100%;
+  margin-bottom: -0.3rem;
+
+}
+
+.nline {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+
+
+
+
+
+
+.card:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(0.9);
+}
+
+
+
+/* 
+css for nav baar */
+
+
+
+
+
+/* css */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+
+
+
+}
+
+li {
+  float: left;
+  padding: 50px;
+  text-transform: uppercase;
+
+}
+
+
+.navi {
+  margin-top: -110px;
+  margin-left: 26rem;
+}
+
+.active {
+  background-color: rgba(12, 16, 241, 0.144);
+  color: rgb(255, 255, 255);
+}
+
+ul li a:link {
+  text-decoration: none;
+
+ 
+
+}
+
+
